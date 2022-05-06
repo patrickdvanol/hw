@@ -1,32 +1,5 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+/ Заполняем массив с клавиатуры
+        for (int i = 0; i < 10; i++) {
+            cout << "[" << i + 1 << "]" << ": ";
+            cin >> arr[i];
+        }
